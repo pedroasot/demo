@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#stratus{color:#fff;}
+#stratus #drawer,#stratus #player{background:#000;border-color:#000}
+#stratus #drawer #artwork{-webkit-box-shadow:inset -5px 0 5px -5px rgba(0,0,0,0.15);-moz-box-shadow:inset -5px 0 5px -5px rgba(0,0,0,0.15);box-shadow:inset -5px 0 5px -5px rgba(0,0,0,0.15)}
+#stratus #drawer ul#tracks li{color:#FFF}
+#stratus #drawer ul#tracks li:nth-child(2n){background:#000}
+#stratus #drawer ul#tracks li:hover{background:#000}
+#stratus #drawer ul#tracks li.current{color:#fff}
+#stratus #player .prev,#stratus #player .next,#stratus #player .play,#stratus #player .pause,#stratus #player ul#stats li span,#stratus #player ul#buttons li > *,#stratus #player .close,#stratus #player #share{background-image:url("../images/sprites.png")}
+#stratus #player a{color:red}
+#stratus #player #time{background:#000;}
+#stratus #player #time:hover{background:#B3B3B3;}
+#stratus #player .track,#stratus #player #share,#stratus #player #comment{background-color:#000;border-color:#fff}
+#stratus #player ul#stats li,#stratus #player ul#buttons li{border-color:#fff}
+#stratus #player #share ul#social a{background:url("../images/social.png")}
+#stratus #player #share #embed input{border-color:#fff}
+
+#stratus #player ul#buttons li.soundcloud a { display:block; }
